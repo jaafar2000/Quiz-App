@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+		<h1>Quiz App</h1>
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h2 id="question">Question text</h2>
+        <ul>
+          <li>
+            <input type="radio" id="a" name="answer" class="answer" />
+            <label id="a_text" for="a">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="b" name="answer" class="answer" />
+            <label id="b_text" for="b">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="c" name="answer" class="answer" />
+            <label id="c_text" for="c">Question</label>
+          </li>
+          <li>
+            <input type="radio" id="d" name="answer" class="answer" />
+            <label id="d_text" for="d">Question</label>
+          </li>
+        </ul>
+        <div class="footer">
+					<p class="test">test</p>
+					<p class="showAnswer">Show Answer</p>
+				</div>
+      </div>
+				<button id="submit">Submit</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #b8c6db;
+	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.quiz-container {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+	overflow: hidden;
+	width: 600px;
+	max-width: 100%;
+}
+
+.quiz-header {
+	padding: 2rem 4rem;
+}
+
+h2 {
+	padding: 1rem;
+	text-align: center;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul li {
+	font-size: 1rem;
+	padding: 0.5rem 0;
+	transition: all 0.1s ease;
+	border-bottom: 2px solid transparent;
+
+}
+
+ul li:hover {
+	cursor: pointer;
+	border-bottom: 2px solid #8e44ad;
+	background-image: linear-gradient(transparent, rgb(142 68 173 / 16%));
+	border-top-left-radius: 20px;
+
+}
+
+ul li label {
+	cursor: pointer;
+}
+
+button {
+	background-color: #8e44ad;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font-family: inherit;
+	font-size: 1.5rem;
+	width: 100%;
+	padding: 2rem;
+	transition: all 0.5s ease;
+
+}
+
+button:hover {
+	background-color: #732d91;
+}
+
+button:focus {
+	outline: none;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.test {
+	margin: 0px;
+	margin-left: 20px;
+	color: transparent;
+}
+
+.footer .showAnswer {
+	transition: all 0.2s ease;
+	border-bottom: 2px solid transparent;
+}
+
+.footer .showAnswer:hover {
+	cursor: pointer;
+	border-bottom: 2px solid #732d91;
+
+}
